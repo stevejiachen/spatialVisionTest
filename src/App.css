@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.App {
+  display: block;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width:575px) {
+  .App{
+    margin-top: 10rem;
+  }
+}
+
+
+html, body {
+    font-size: 65%;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url(./images/bg-cyan.jpg);
+}
+
+.profile-form {
+    position: relative;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+    font: 13px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #666;
+    max-width: 500px;
+}
+
+
+.form-title {
+    display: block;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 0;
+    background: rgba(248,248,248,.9);
+    font-size: 25px;
+    font-weight: 300;
+    color: #232323;
+}
+
+
+.profile-form form {
+    display: block;
+    padding: 25px 30px 10px;
+    border: none;
+    background: rgba(255,255,255,.9);
+}
+
+.form-input {
+  padding-left: 10px;
+  display: block;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #2da5da;
+  opacity: 0.8;
+  height: 3rem;
+  width: 8rem;
+  color: white;
+}
+
+.button:hover {
+  opacity: 1
+}
+
+.form-button--save {
+  float: right;
+}
+
+
+
+.form-button--cancel {
+  background-color: #F44336;
+  position: absolute;
+  bottom: 2.9rem;
+  left: 4rem;
+}
+
+section.submit {
+  display: block;
+  padding: 15px 30px 25px;
+  border-top: 1px solid rgba(0,0,0,.1);
+  background: rgba(248,248,248,.9);
+}
+
+section.submit:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.profile-page{
+  background-color: white;
+  position: relative;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  box-shadow: 0 0 20px rgba(0,0,0,.3);
+  font: 13px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #666;
+  max-width: 500px;
+}
+
+@media (min-width:575px) {
+  .profile-page{
+    height: 400px;
+  }
+}
+
+.user-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width:575px) {
+  .user-icon{
+    position: relative;
+    top: 50%;
+    transform: translateY(-25%);
+  }
+}
+
+.user-info {
+  padding-left: 10%;
+}
+
+.user-info > div {
+  font-size: 2rem;
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+
+.user-info p {
+  font-size: 1rem;
+  color: #757575;
+}
+
+.user-info p span {
+  font-size: 1.2rem;
+  color: #90a4ae
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  height: 100%;
+}
+
+.sidebar-nav li{
+  list-style: none;
+}
+
+.sidebar-nav a{
+  text-decoration: none;
+
+}

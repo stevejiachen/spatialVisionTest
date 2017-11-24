@@ -1,0 +1,11 @@
+.bg-cyan {
+    background-image: url(./images/bg-cyan.jpg);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+}
